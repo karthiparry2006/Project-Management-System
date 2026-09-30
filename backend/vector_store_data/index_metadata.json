@@ -1,0 +1,274 @@
+{
+  "documents": [
+    {
+      "id": "task_14",
+      "text": "[Task #14] Title: Design Categorization Prompt Architecture\nProject: Project Gamma (ID: 3)\nStatus: In Progress | Priority: High | Assignee: dev2 | Due Date: 2026-10-13\nDescription: Formulate zero-shot prompt engineering for automatic merchant categorization and recurring bill detection.\nComments / Discussions:\n  - dev2: Testing few-shot prompts against Plaid and MX transaction datasets.",
+      "metadata": {
+        "task_id": 14,
+        "project_id": 3,
+        "project_name": "Project Gamma",
+        "title": "Design Categorization Prompt Architecture",
+        "status": "In Progress",
+        "priority": "High",
+        "assignee": "dev2",
+        "due_date": "2026-10-13",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_13",
+      "text": "[Task #13] Title: Grafana & Prometheus Observability Dashboard\nProject: Project Beta (ID: 2)\nStatus: Backlog | Priority: High | Assignee: dev1 | Due Date: 2026-10-07\nDescription: Set up cluster metrics collection for pod memory, network throughput, and MySQL transaction latency with Slack alerting.\nComments / Discussions:\n  - dev1: Configuring Prometheus node exporters across all worker nodes.",
+      "metadata": {
+        "task_id": 13,
+        "project_id": 2,
+        "project_name": "Project Beta",
+        "title": "Grafana & Prometheus Observability Dashboard",
+        "status": "Backlog",
+        "priority": "High",
+        "assignee": "dev1",
+        "due_date": "2026-10-07",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_1",
+      "text": "[Task #1] Title: Setup Redis Caching Layer\nProject: Project Alpha (ID: 1)\nStatus: In Progress | Priority: High | Assignee: dev1 | Due Date: 2026-10-06\nDescription: Implement distributed Redis cache for user account summaries and high-frequency balance inquiries to relieve MySQL database load during peak market hours.\nComments / Discussions:\n  - dev1: Evaluating between Redis cluster and standalone Sentinel setup.\n  - manager: Sentinel is sufficient for Phase 1. Ensure TTL is configured to 300s to avoid stale account balances.",
+      "metadata": {
+        "task_id": 1,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Setup Redis Caching Layer",
+        "status": "In Progress",
+        "priority": "High",
+        "assignee": "dev1",
+        "due_date": "2026-10-06",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_6",
+      "text": "[Task #6] Title: Export Transactions to Encrypted CSV/PDF\nProject: Project Alpha (ID: 1)\nStatus: In Progress | Priority: Low | Assignee: dev1 | Due Date: 2026-10-11\nDescription: Provide asynchronous report generator using background tasks for monthly client account statements.\nComments / Discussions:\n  - dev1: Need to confirm password-protection specification for downloaded PDFs.",
+      "metadata": {
+        "task_id": 6,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Export Transactions to Encrypted CSV/PDF",
+        "status": "In Progress",
+        "priority": "Low",
+        "assignee": "dev1",
+        "due_date": "2026-10-11",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_11",
+      "text": "[Task #11] Title: Setup Redis Caching\nProject: Project Alpha (ID: 1)\nStatus: Backlog | Priority: High | Assignee: Unassigned | Due Date: 2026-10-05\nDescription: No description provided.\nComments / Discussions:\n  No comments yet.",
+      "metadata": {
+        "task_id": 11,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Setup Redis Caching",
+        "status": "Backlog",
+        "priority": "High",
+        "assignee": "Unassigned",
+        "due_date": "2026-10-05",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_16",
+      "text": "[Task #16] Title: Setup Redis Caching\nProject: Project Alpha (ID: 1)\nStatus: Backlog | Priority: High | Assignee: Unassigned | Due Date: 2026-10-05\nDescription: No description provided.\nComments / Discussions:\n  No comments yet.",
+      "metadata": {
+        "task_id": 16,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Setup Redis Caching",
+        "status": "Backlog",
+        "priority": "High",
+        "assignee": "Unassigned",
+        "due_date": "2026-10-05",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_9",
+      "text": "[Task #9] Title: CI/CD Pipeline Security Scanning with Trivy\nProject: Project Beta (ID: 2)\nStatus: Done | Priority: Medium | Assignee: dev1 | Due Date: 2026-09-26\nDescription: Integrate static container vulnerability scanning on pull requests to prevent critical vulnerabilities entering production.\nComments / Discussions:\n  - manager: Zero high/critical CVEs policy enforced on main branch.\n  - dev1: All images now scanned during GitHub Actions workflow run.",
+      "metadata": {
+        "task_id": 9,
+        "project_id": 2,
+        "project_name": "Project Beta",
+        "title": "CI/CD Pipeline Security Scanning with Trivy",
+        "status": "Done",
+        "priority": "Medium",
+        "assignee": "dev1",
+        "due_date": "2026-09-26",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_5",
+      "text": "[Task #5] Title: User Profile Multi-Factor Authentication\nProject: Project Alpha (ID: 1)\nStatus: Done | Priority: Medium | Assignee: dev2 | Due Date: 2026-09-27\nDescription: Implement TOTP QR code generation and verification for mandatory two-factor authentication on financial withdrawals.\nComments / Discussions:\n  - dev2: Merged into staging branch and verified with Google Authenticator and Authy.",
+      "metadata": {
+        "task_id": 5,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "User Profile Multi-Factor Authentication",
+        "status": "Done",
+        "priority": "Medium",
+        "assignee": "dev2",
+        "due_date": "2026-09-27",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_10",
+      "text": "[Task #10] Title: Terraform VPC & Subnet Provisioning\nProject: Project Beta (ID: 2)\nStatus: Done | Priority: Medium | Assignee: dev2 | Due Date: 2026-09-24\nDescription: Define dual-region private and public subnets with NAT gateways, route tables, and strict security group rules.\nComments / Discussions:\n  - dev2: Terraform plan applied successfully. All state locked in remote S3 bucket.",
+      "metadata": {
+        "task_id": 10,
+        "project_id": 2,
+        "project_name": "Project Beta",
+        "title": "Terraform VPC & Subnet Provisioning",
+        "status": "Done",
+        "priority": "Medium",
+        "assignee": "dev2",
+        "due_date": "2026-09-24",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_15",
+      "text": "[Task #15] Title: Mobile React Native Bridge Setup\nProject: Project Gamma (ID: 3)\nStatus: Done | Priority: Medium | Assignee: dev1 | Due Date: 2026-10-09\nDescription: Initialize mobile repository with biometric FaceID/Fingerprint authentication and secure keychain token storage.\nComments / Discussions:\n  - dev1: Expo SDK 51 configured with native biometric prompts.",
+      "metadata": {
+        "task_id": 15,
+        "project_id": 3,
+        "project_name": "Project Gamma",
+        "title": "Mobile React Native Bridge Setup",
+        "status": "Done",
+        "priority": "Medium",
+        "assignee": "dev1",
+        "due_date": "2026-10-09",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_7",
+      "text": "[Task #7] Title: Kubernetes Helm Chart Deployment\nProject: Project Beta (ID: 2)\nStatus: In Progress | Priority: High | Assignee: dev1 | Due Date: 2026-10-03\nDescription: Construct Helm charts with horizontal pod autoscaling and ingress controllers for zero-downtime rolling updates.\nComments / Discussions:\n  - dev1: Configured resource limits: 500m CPU and 512Mi memory per replica.\n  - manager: Ensure HPA is set to scale out at 75% average CPU utilization.",
+      "metadata": {
+        "task_id": 7,
+        "project_id": 2,
+        "project_name": "Project Beta",
+        "title": "Kubernetes Helm Chart Deployment",
+        "status": "In Progress",
+        "priority": "High",
+        "assignee": "dev1",
+        "due_date": "2026-10-03",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_2",
+      "text": "[Task #2] Title: Implement OAuth2 / JWT Token Rotation\nProject: Project Alpha (ID: 1)\nStatus: In Progress | Priority: Urgent | Assignee: dev2 | Due Date: 2026-10-02\nDescription: Address token expiration edge cases and add refresh token rotation to avoid session hijacking across mobile and web clients.\nComments / Discussions:\n  - dev2: Testing token blacklisting upon logout. MySQL table handles revoked tokens smoothly.\n  - dev1: Make sure clock skew tolerance is set to max 30 seconds.",
+      "metadata": {
+        "task_id": 2,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Implement OAuth2 / JWT Token Rotation",
+        "status": "In Progress",
+        "priority": "Urgent",
+        "assignee": "dev2",
+        "due_date": "2026-10-02",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_3",
+      "text": "[Task #3] Title: Database Connection Pooling Optimization\nProject: Project Alpha (ID: 1)\nStatus: In Progress | Priority: High | Assignee: dev1 | Due Date: 2026-10-04\nDescription: The payment gateway queries are causing connection spikes on MySQL. Configure PyMySQL connection pooling and optimize pool recycling.\nComments / Discussions:\n  - dev1: We noticed connection saturation at 150 concurrent users. Increasing pool size to 50 and adding pgbouncer/proxy.\n  - manager: This is our biggest roadblock right now; let us prioritize fixing this before stress testing.\n  - dev1: We noticed connection saturation at 150 concurrent users. Increasing pool size to 50 and adding proxy layer.",
+      "metadata": {
+        "task_id": 3,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Database Connection Pooling Optimization",
+        "status": "In Progress",
+        "priority": "High",
+        "assignee": "dev1",
+        "due_date": "2026-10-04",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_8",
+      "text": "[Task #8] Title: Database Schema Migration to Multi-AZ RDS\nProject: Project Beta (ID: 2)\nStatus: In Review | Priority: Urgent | Assignee: dev2 | Due Date: 2026-09-30\nDescription: Execute dry-run migration script for 50GB dataset with AWS DMS continuous replication and automated failover tests.\nComments / Discussions:\n  - dev2: Replication lag currently sits at 12ms. Looking good for final cutover.",
+      "metadata": {
+        "task_id": 8,
+        "project_id": 2,
+        "project_name": "Project Beta",
+        "title": "Database Schema Migration to Multi-AZ RDS",
+        "status": "In Review",
+        "priority": "Urgent",
+        "assignee": "dev2",
+        "due_date": "2026-09-30",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_4",
+      "text": "[Task #4] Title: Stripe Webhook Signature Verification\nProject: Project Alpha (ID: 1)\nStatus: In Review | Priority: High | Assignee: dev2 | Due Date: 2026-10-01\nDescription: Verify raw body payload signatures for incoming Stripe payment events to prevent spoofing and duplicate transaction receipts.\nComments / Discussions:\n  - manager: Code looks solid. Staging webhook smoke tests completed with 100% pass rate.\n  - dev2: Added idempotency key checks to guard against replayed webhook notifications.",
+      "metadata": {
+        "task_id": 4,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Stripe Webhook Signature Verification",
+        "status": "In Review",
+        "priority": "High",
+        "assignee": "dev2",
+        "due_date": "2026-10-01",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_12",
+      "text": "[Task #12] Title: Automated Fraud Detection Thresholds\nProject: Project Alpha (ID: 1)\nStatus: In Review | Priority: Urgent | Assignee: dev2 | Due Date: 2026-09-30\nDescription: Configure rule-based transaction velocity limits to flag suspicious multiple transfers exceeding $10,000 within 1 hour.\nComments / Discussions:\n  - dev2: Fraud rules benchmarked against 100k synthetic transfer events. False positive rate below 0.2%.\n  - manager: Great work Elena, please demo this at the sprint review tomorrow.",
+      "metadata": {
+        "task_id": 12,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Automated Fraud Detection Thresholds",
+        "status": "In Review",
+        "priority": "Urgent",
+        "assignee": "dev2",
+        "due_date": "2026-09-30",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_17",
+      "text": "[Task #17] Title: Setup Redis Caching\nProject: Project Alpha (ID: 1)\nStatus: Backlog | Priority: High | Assignee: Unassigned | Due Date: 2026-10-05\nDescription: No description provided.\nComments / Discussions:\n  No comments yet.",
+      "metadata": {
+        "task_id": 17,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Setup Redis Caching",
+        "status": "Backlog",
+        "priority": "High",
+        "assignee": "Unassigned",
+        "due_date": "2026-10-05",
+        "type": "task"
+      }
+    },
+    {
+      "id": "task_18",
+      "text": "[Task #18] Title: Setup Redis Caching\nProject: Project Alpha (ID: 1)\nStatus: Backlog | Priority: High | Assignee: Unassigned | Due Date: 2026-10-05\nDescription: No description provided.\nComments / Discussions:\n  No comments yet.",
+      "metadata": {
+        "task_id": 18,
+        "project_id": 1,
+        "project_name": "Project Alpha",
+        "title": "Setup Redis Caching",
+        "status": "Backlog",
+        "priority": "High",
+        "assignee": "Unassigned",
+        "due_date": "2026-10-05",
+        "type": "task"
+      }
+    }
+  ]
+}
